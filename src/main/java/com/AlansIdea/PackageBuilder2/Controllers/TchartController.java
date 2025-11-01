@@ -9,16 +9,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.IOException;
-import java.util.UUID;
-
 @RestController
 @RequestMapping("/TestBucket")
-public class TestingController {
+public class TchartController {
 
     private final TchartService tchartService;
 
-    public TestingController(TchartService tchartService, S3Service s3Service, S3Bucket s3Buckets) {
+    public TchartController(TchartService tchartService, S3Service s3Service, S3Bucket s3Buckets) {
         this.tchartService = tchartService;
     }
 
