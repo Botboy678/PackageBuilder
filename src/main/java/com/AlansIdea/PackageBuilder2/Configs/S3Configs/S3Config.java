@@ -1,4 +1,4 @@
-package com.AlansIdea.PackageBuilder2.Configs;
+package com.AlansIdea.PackageBuilder2.Configs.S3Configs;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

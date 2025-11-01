@@ -1,4 +1,4 @@
-package com.AlansIdea.PackageBuilder2.Configs;
+package com.AlansIdea.PackageBuilder2.Configs.S3Configs;
 
 import lombok.Getter;
 import lombok.Setter;
